@@ -6,6 +6,9 @@ def hello_t(set)
       i += 1 
     end
     set 
+  else 
+    puts "Hey! No block was given!" 
+  end
 end
 
 # call your method here!
