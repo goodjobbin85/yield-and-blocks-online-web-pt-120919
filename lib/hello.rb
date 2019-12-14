@@ -4,6 +4,7 @@ def hello_t(set)
   yield set[i]
     i += 1 
   end
+  set 
 end
 
 # call your method here!
